@@ -1,0 +1,33 @@
+body {
+    font-family: 'Georgia', serif; /* Georgia font for professional aesthetic */
+    background-color: #f3f4f6; /* Light gray background */
+    color: rgb(132, 35, 202); /* Main text color set to Maroon */
+}
+
+/* Custom scrollbar for aesthetics */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1; /* Light gray for scrollbar */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #9ca3af; /* Darker gray on hover */
+}
+
+.smooth-scroll {
+    scroll-behavior: smooth;
+}
+
+/* Ensure paragraph text inherits the maroon color */
+p {
+    color: inherit;
+}
