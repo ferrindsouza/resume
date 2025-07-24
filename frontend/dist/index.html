@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferrin Dsouza - Cloud Engineer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="font-inter bg-gray-100 text-gray-800">
+    <!-- Navigation Bar -->
+    <nav class="bg-blue-500 text-white p-4 shadow-lg">
+        <div class="container mx-auto max-w-6xl flex flex-col sm:flex-row justify-between items-center">
+            <h1 class="text-3xl sm:text-4xl font-bold font-handwriting mb-2 sm:mb-0">Ferrin Dsouza</h1>
+            <ul class="flex flex-wrap gap-x-6 gap-y-2 text-base font-medium">
+                <li><a href="#about" class="hover:text-blue-200 transition-colors px-2 py-1">About</a></li>
+                <li><a href="#skills" class="hover:text-blue-200 transition-colors px-2 py-1">Skills</a></li>
+                <li><a href="#experience" class="hover:text-blue-200 transition-colors px-2 py-1">Experience</a></li>
+                <li><a href="#projects" class="hover:text-blue-200 transition-colors px-2 py-1">Projects</a></li>
+                <li><a href="#education" class="hover:text-blue-200 transition-colors px-2 py-1">Education</a></li>
+                <li><a href="#certifications" class="hover:text-blue-200 transition-colors px-2 py-1">Certifications</a></li>
+                <li><a href="#contact" class="hover:text-blue-200 transition-colors px-2 py-1">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content Container (removed white box wrapper) -->
+    <main class="container mx-auto max-w-6xl p-6 sm:p-8 md:p-10"> <!-- Changed max-w-4xl to max-w-6xl -->
+        <!-- About Me / Summary Section -->
+        <section id="about" class="mb-12 pt-4">
+            <h2 class="text-2xl sm:text-3xl font-semibold text-sky-600 mb-4 border-b-2 pb-2 border-blue-200">About Me</h2>
+            <div class="flex flex-col md:flex-row items-center md:items-start space-y-6 md:space-y-0 md:space-x-8">
+                <img src="Resume_Profile_Pic.jpg" alt="Profile Picture" class="w-56 h-64 rounded-full object-cover shadow-lg border-4 border-indigo-300">
+                <div>
+                    <p class="text-lg leading-relaxed mb-4 text-justify text-sky-700">
+                        
+                        A highly motivated and curious individual with a strong foundation in IT, holding an MS in Cybersecurity from Robert Gordon University, Scotland, and a B.E. in Computer Engineering from Visvesvaraya Technological University, India. As an AWS Certified Cloud Practitioner, I have channelled my skills into practical cloud and Linux projects, including building a serverless website, configuring robust VPC environments with public and private subnets, and currently developing proficiency in Linux scripting, CI/CD pipelines, Terraform, and containerization.
+                        
+                    </p>
+                    <p class="text-lg leading-relaxed text-justify text-sky-700">
+                        I'm consistently expanding my toolkit, with plans to master Ansible. I am a reliable and natural team player, eager to contribute to innovative solutions as a Junior Cloud Engineer or Linux Administrator within dynamic environments across India, UAE, or Europe.                    
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="mb-12 pt-4">
+            <h2 class="text-2xl sm:text-3xl font-semibold text-sky-600 mb-4 border-b-2 pb-2 border-blue-200">Skills</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-base sm:text-lg">
+                
+                <!-- Automation and Scripting Card -->
+                <div class="flip-card-container">
+                    <div class="flip-card">
+                        <div class="flip-card-front bg-gradient-to-br from-blue-50 to-blue-100 p-4">
+                            <h3 class="font-bold text-sky-700 mb-3">Automation and Scripting</h3>
+                            <div class="text-sky-600 text-justify space-y-1">
+                                <p>Python</p>
+                                <p>Bash Scripting</p>
+                                <p>Ansible</p>
+                                <p>Terraform</p>
+                            </div>
+                            <p class="text-xs text-gray-500 mt-4 italic">Hover to see relevant projects</p>
+                        </div>
+                        <div class="flip-card-back bg-gradient-to-br from-blue-100 to-blue-200 p-4">
+                            <h3 class="font-bold text-sky-700 mb-3">Projects:</h3>
+                            <div class="text-sky-600 text-justify space-y-2">
+                                <p><a href="#projects" class="hover:text-blue-800 transition-colors">Cloud Resume Project</a></p>
+                                <p><a href="#projects" class="hover:text-blue-800 transition-colors">Sentiment Analysis</a></p>
+                                <p><a href="#projects" class="hover:text-blue-800 transition-colors">AWS Automation with Shell Scripting</a></p>
+                                <p><a href="#projects" class="hover:text-blue-800 transition-colors">Host a Serverless Static Website</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cloud and Infrastructure Card -->
+                <div class="flip-card-container">
+                    <div class="flip-card">
+                        <div class="flip-card-front bg-gradient-to-br from-blue-50 to-blue-100 p-4">
+                            <h3 class="font-bold text-sky-700 mb-3">Cloud and Infrastructure</h3>
+                            <div class="text-sky-600 text-justify space-y-1">
+                                <p>AWS</p>
+                                <p>GCP</p>
+                                <p>Linux</p>
+                                <p>SQL</p>
+                            </div>
+                            <p class="text-xs text-gray-500 mt-4 italic">Hover to see relevant projects</p>
+                        </div>
+                        <div class="flip-card-back bg-gradient-to-br from-blue-100 to-blue-200 p-4">
+                            <h3 class="font-bold text-sky-700 mb-3">Projects:</h3>
+                            <div class="text-sky-600 text-justify space-y-2">
+                                <p><a href="#projects" class="hover:text-blue-800 transition-colors">Cloud Resume Project</a></p>
+                                <p><a href="#projects" class="hover:text-blue-800 transition-colors">AWS Automation with Shell Scripting</a></p>
+                                <p><a href="#projects" class="hover:text-blue-800 transition-colors">Library Management System</a></p>
+                                <p><a href="#projects" class="hover:text-blue-800 transition-colors">Pharmacy Management System</a></p>
+                                <p><a href="#projects" class="hover:text-blue-800 transition-colors">Host a Serverless Static Website</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Containers and CI/CD Card -->
+                <div class="flip-card-container">
+                    <div class="flip-card">
+                        <div class="flip-card-front bg-gradient-to-br from-blue-50 to-blue-100 p-4">
+                            <h3 class="font-bold text-sky-700 mb-3">Containers and CI/CD</h3>
+                            <div class="text-sky-600 text-justify space-y-1">
+                                <p>Docker</p>
+                                <p>Kubernetes</p>
+                                <p>CI/CD</p>
+                                <p>Git</p>
+                            </div>
+                            <p class="text-xs text-gray-500 mt-4 italic">Hover to see relevant projects</p>
+                        </div>
+                        <div class="flip-card-back bg-gradient-to-br from-blue-100 to-blue-200 p-4">
+                            <h3 class="font-bold text-sky-700 mb-3">Projects:</h3>
+                            <div class="text-sky-600 text-justify space-y-2">
+                                <p><a href="#projects" class="hover:text-blue-800 transition-colors">Cloud Resume Project</a></p>
+                                <p><a href="#projects" class="hover:text-blue-800 transition-colors">SYN Flood Attack Detection</a></p>
+                                <p><a href="#projects" class="hover:text-blue-800 transition-colors">Pharmacy Management System</a></p>
+                                <p><a href="#projects" class="hover:text-blue-800 transition-colors">Library Management System</a></p>
+                                <p><a href="#projects" class="hover:text-blue-800 transition-colors">NGINX Web App on AWS</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Networks and Security Card -->
+                <div class="flip-card-container">
+                    <div class="flip-card">
+                        <div class="flip-card-front bg-gradient-to-br from-blue-50 to-blue-100 p-4">
+                            <h3 class="font-bold text-sky-700 mb-3">Networks and Security</h3>
+                            <div class="text-sky-600 text-justify space-y-1">
+                                <p>IAM</p>
+                                <p>VPN</p>
+                            </div>
+                            <p class="text-xs text-gray-500 mt-4 italic">Hover to see relevant projects</p>
+                        </div>
+                        <div class="flip-card-back bg-gradient-to-br from-blue-100 to-blue-200 p-4">
+                            <h3 class="font-bold text-sky-700 mb-3">Projects:</h3>
+                            <div class="text-justify space-y-2">
+                                <p><a href="#projects" class="text-sky-600 hover:text-blue-800 transition-colors">SYN Flood Attack Detection</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Development -->
+                <div class="flip-card-container">
+                    <div class="flip-card">
+                        <div class="flip-card-front bg-gradient-to-br from-blue-50 to-blue-100 p-4">
+                            <h3 class="font-bold text-sky-700 mb-3">Web Development and Framework</h3>
+                            <div class="text-sky-600 text-justify space-y-1">
+                                <p>HTML</p>
+                                <p>CSS</p>
+                                <p>JavaScript</p>
+                                <p>Django</p>
+                            </div>
+                            <p class="text-xs text-gray-500 mt-4 italic">Hover to see relevant projects</p>
+                        </div>
+                        <div class="flip-card-back bg-gradient-to-br from-blue-100 to-blue-200 p-4">
+                            <h3 class="font-bold text-sky-700 mb-3">Projects:</h3>
+                            <div class="text-justify space-y-2">
+                                <p><a href="#projects" class="text-sky-600 hover:text-blue-800 transition-colors">Cloud Resume Project</a></p>
+                                <p><a href="#projects" class="text-sky-600 hover:text-blue-800 transition-colors">Pharmacy Management System</a></p>
+                                <p><a href="#projects" class="text-sky-600 hover:text-blue-800 transition-colors">Library Management System</a></p>
+                                <p><a href="#projects" class="text-sky-600 hover:text-blue-800 transition-colors">SYN Flood Attack Detection</a></p>
+                                <p><a href="#projects" class="text-sky-600 hover:text-blue-800 transition-colors">Host a Serverless Static Website</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ML and Sentiment Analysis -->
+                <div class="flip-card-container">
+                    <div class="flip-card">
+                        <div class="flip-card-front bg-gradient-to-br from-blue-50 to-blue-100 p-4">
+                            <h3 class="font-bold text-sky-700 mb-3">ML and Sentiment Analysis</h3>
+                            <div class="text-sky-600 text-justify space-y-1">
+                                <p>NLP</p>
+                                <p>Jupyter Notebook</p>
+                                <p>AWS Rekognition</p>
+                                <p>Generative AI</p>
+                            </div>
+                            <p class="text-xs text-gray-500 mt-4 italic">Hover to see relevant projects</p>
+                        </div>
+                        <div class="flip-card-back bg-gradient-to-br from-blue-100 to-blue-200 p-4">
+                            <h3 class="font-bold text-sky-700 mb-3">Projects:</h3>
+                            <div class="text-justify space-y-2">
+                                <p><a href="#projects" class="text-sky-600 hover:text-blue-800 transition-colors">SYN Flood Attack Detection</a></p>
+                                <p><a href="#projects" class="text-sky-600 hover:text-blue-800 transition-colors">AWS PartyRock_TaskScheduler</a></p>
+                                <p><a href="#projects" class="text-sky-600 hover:text-blue-800 transition-colors">Sentiment Analysis</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section (Consolidated) -->
+        <section id="experience" class="mb-12 pt-4"> <!-- Added id and padding-top -->
+            <h2 class="text-2xl sm:text-3xl font-semibold text-sky-600 mb-4 border-b-2 pb-2 border-blue-200">Experience</h2>
+
+            <!-- Volunteer Experience -->
+            <div class="mb-6">
+                <h3 class="text-xl sm:text-2xl font-semibold text-sky-700">Tech Support, St Mary's Cathedral Aberdeen</h3>
+                <p class="text-sky-600 italic mb-2">Scotland, UK | Aug 2022 – Aug 2024</p>
+                <div class="text-lg text-sky-600 text-justify space-y-2">
+                    <p>Provided technical troubleshooting for IT systems, improving program efficiency and ensuring smooth event operations.</p>
+                    <p>Conducted cybersecurity awareness sessions for seniors and at-risk individuals, enhancing community security knowledge.</p>
+                    <p>Developed strong leadership, teamwork, and communication skills by coordinating youth programs and engaging with diverse groups.</p>
+                </div>
+            </div>
+
+            <!-- Other Work Experience -->
+            <!-- <div class="mb-6">
+                <h3 class="text-xl sm:text-2xl font-semibold text-sky-700">Part-Time Server, Aberdeen International Airport Restaurant</h3>
+                <p class="text-sky-600 italic mb-2">Scotland, UK | Aug 2023 – Aug 2024</p>
+                <div class="text-sky-600 text-justify space-y-2">
+                    <p>Demonstrated exceptional time management by efficiently handling high guest turnover during peak airport hours, ensuring prompt service without compromising quality.</p>
+                    <p>Thrived under pressure in a fast-paced environment, consistently maintaining accuracy and composure during simultaneous customer and kitchen demands</p>
+                    <p>Utilized structured workflows and attention to detail to manage complex orders and logistics—skills that align with scalable systems thinking in cloud-based roles.</p>
+                </div>
+            </div> -->
+
+            <div class="mb-6">
+                <h3 class="text-xl sm:text-2xl font-semibold text-sky-700">Lead Student Ambassador, Robert Gordon University Aberdeen</h3>
+                <p class="text-sky-600 italic mb-2">Scotland, UK | April 2022 – June 2023</p>
+                <div class="text-lg text-sky-600 text-justify space-y-2">
+                    <p>Represented the university at official events and campus tours, actively promoting the MSc in CyberSecurity program by highlighting academic strengths and industry relevance</p>
+                    <p>Facilitated peer engagement and university outreach with strong interpersonal communication, fostering trust and connection across diverse student populations.</p>
+                    <p>Managed multiple responsibilities—event coordination, student support, and academic commitments—while maintaining consistent productivity under tight time constraints.</p>
+                </div>
+            </div>
+            <div class="mb-6">
+                <h3 class="text-xl sm:text-2xl font-semibold text-sky-700">President, Robert Gordon University Catholic Society Aberdeen</h3>
+                <p class="text-sky-600 italic mb-2">Scotland, UK | Sept 2022 – Dec 2022</p>
+                <div class="text-lg text-sky-600 text-justify space-y-2">
+                    <p>Led coordination of society events and outreach using structured planning and digital tools—strengthening organizational workflows and peer engagement</p>
+                    <p>Facilitated cross-cultural discussions and inclusive spaces, demonstrating adaptability and stakeholder alignment—key traits in collaborative tech environments.</p>
+                    <p>Promoted values-based initiatives and society activities while articulating broader mission goals—honing communication skills applicable to technical evangelism and product advocacy.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section - Placeholder for horizontal scroll -->
+        <section id="projects" class="mb-12 pt-4"> <!-- Added id and padding-top -->
+            <h2 class="text-2xl sm:text-3xl font-semibold text-blue-600 mb-4 border-b-2 pb-2 border-blue-200">🧪 Major Projects</h2>
+            <!-- This will be converted to a horizontal scroll section later -->
+            <div class="mb-6">
+                <h3 class="text-xl sm:text-2xl font-semibold text-gray-700">Cloud Resume Project</h3>
+                <p class="text-gray-600 italic mb-2">Technologies: AWS, Python, HTML, CSS, JavaScript</p>
+                <ul class="list-disc list-inside ml-4 text-base sm:text-lg leading-relaxed">
+                    <li>Designed and deployed a serverless resume website on AWS using S3, CloudFront, Lambda, and DynamoDB.</li>
+                    <li>Implemented CI/CD pipeline for automated deployments.</li>
+                </ul>
+            </div>
+
+            <div class="mb-6">
+                <h3 class="text-xl sm:text-2xl font-semibold text-gray-700">SYN Flood Attack Detection &amp; Mitigation</h3>
+                <p class="text-gray-600 italic mb-2">Technologies: ML, HTML, CSS, iMacros extension, Wireshark, tcpdump, Python</p>
+                <ul class="list-disc list-inside ml-4 text-base sm:text-lg leading-relaxed">
+                    <li>A MSc network security project to detect and mitigate SYN flood attacks using packet analysis and ML.</li>
+                    <li>By leveraging data collected from network traffic under both normal and attack scenarios, the project aims to train and evaluate ML models (including anomaly detection algorithms) to determine which algorithms are best suited for detecting such attacks.</li>
+                </ul>
+            <a href="https://github.com/ferrindsouza/SYN_Flood_Detection" class="text-blue-500 hover:underline mt-2 inline-block">Click Here to view on Github</a>
+            </div>
+
+            <h2 class="text-2xl sm:text-3xl font-semibold text-blue-600 mb-4 border-b-2 pb-2 border-blue-200 mt-8">📂 Academic / Archived Engineering Projects</h2>
+            <div class="mb-6">
+                <p class="text-base sm:text-lg leading-relaxed mb-4">Here are some of my earlier projects from my engineering days that I only recently dug from the cold depths of my GDrive:</p>
+
+                <h3 class="text-xl sm:text-2xl font-semibold text-gray-700">Virtual Haptic Rehab Study</h3>
+                <p class="text-gray-600 italic mb-2">Technologies: Virtual Reality, Seminar, Research, Powerpoint, Presentation Skills</p>
+                <ul class="list-disc list-inside ml-4 text-base sm:text-lg leading-relaxed">
+                    <li>This seminar explores how Virtual Reality (VR) and haptic technologies can assist in the rehabilitation and diagnosis of patients with hand impairments due to stroke.</li>
+                    <li>The focus is on a conceptual framework that includes five virtual, task-oriented exercises based on established clinical assessments.</li>
+                    <li>These tasks aim to quantitatively evaluate hand functionality, track recovery, and support therapists in designing personalized rehabilitation plans.</li>
+                </ul>
+            <a href="https://github.com/ferrindsouza/virtual-haptic-rehab-study" class="text-blue-500 hover:underline mt-2 inline-block">Click Here to view on Github</a>
+            </div>
+
+            <div class="mb-6">
+                <h3 class="text-xl sm:text-2xl font-semibold text-gray-700">Pharmacy Management System</h3>
+                <p class="text-gray-600 italic mb-2">Technologies: C++, PostgreSQL</p>
+                <ul class="list-disc list-inside ml-4 text-base sm:text-lg leading-relaxed">
+                    <li>The application is written in C++ and facilitates basic Create, Read, Update, Delete (CRUD) operations to manage pharmacy inventory and transactions.</li>
+                    <li>The features of this application is as follows: Medicine Inventory Management:
+                        <ul class="list-circle list-inside ml-4">
+                            <li>Add, view, update, and delete medicine records.</li>
+                            <li>Customer Management: Maintain customer information and purchase history.</li>
+                            <li>Billing System: Generate invoices for purchases.</li>
+                            <li>Search Functionality: Search medicines by name or ID.</li>
+                            <li>User-Friendly Interface: Console-based menu-driven interface for ease of use.</li>
+                        </ul>
+                    </li>
+                </ul>
+                <a href="https://github.com/ferrindsouza/pharma_mgt_system" class="text-blue-500 hover:underline mt-2 inline-block">Click Here to view on Github</a>
+            </div>
+
+            <div class="mb-6">
+                <h3 class="text-xl sm:text-2xl font-semibold text-gray-700">Library Management System</h3>
+                <p class="text-gray-600 italic mb-2">Technologies: HTML, CSS, Django, Python, PostgreSQL</p>
+                <ul class="list-disc list-inside ml-4 text-base sm:text-lg leading-relaxed">
+                    <li>This Library Management System is a web application developed using Python and the Django framework. Designed to streamline library operations, the system enables both users and administrators to manage book inventories, register and login, issue books, and submit feedback.</li>
+                    <li>The system is composed of four core Django apps:</li>
+                    <ul class="list-circle list-inside ml-4">
+                        <li>`useraccounts`: Handles **user registration, login, and logout**, ensuring authentication and authorization.</li>
+                        <li>`feedback`: Allows users to **submit reviews or feedback** on books they've read.</li>
+                        <li>`bookapp`: The core of the system — users can **browse, issue, view details, update, or delete books**. Admins have additional privileges for book management.</li>
+                    </ul>
+                </ul>
+                <a href="https://github.com/ferrindsouza/LibraryMS" class="text-blue-500 hover:underline mt-2 inline-block">Click Here to view on Github</a>
+            </div>
+
+            <div class="mb-6">
+                <h3 class="text-xl sm:text-2xl font-semibold text-gray-700">Sentiment Analysis of Restaurant Reviews (Internship Project)</h3>
+                <p class="text-gray-600 italic mb-2">Technologies: Machine Learning (ML), Natural Language Processing(NLP), Python</p>
+                <ul class="list-disc list-inside ml-4 text-base sm:text-lg leading-relaxed">
+                    <li>The core focus of the internship project was to develop a Natural Language Processing (NLP)-based sentiment analysis model to classify restaurant reviews as positive or negative.</li>
+                    <li>This involved building and evaluating various supervised learning models using Python and common NLP libraries.</li>
+                    <li>To create a machine learning model that can accurately classify the sentiment of restaurant reviews using NLP techniques. This involved:</li>
+                    <ul class="list-circle list-inside ml-4">
+                        <li>Exploring multiple algorithms</li>
+                        <li>Preprocessing and vectorizing textual data</li>
+                        <li>Evaluating model accuracy</li>
+                        <li>Selecting the best-performing model</li>
+                    </ul>
+                </ul>
+                <a href="https://github.com/ferrindsouza/internship-nlp-sentiment-restaurant" class="text-blue-500 hover:underline mt-2 inline-block">Click Here to view on Github</a>
+            </div>
+
+            <div class="mb-6">
+                <h3 class="text-xl sm:text-2xl font-semibold text-gray-700">Anti-Burglar Security System</h3>
+                <p class="text-gray-600 italic mb-2">Technologies: C++, Arduino</p>
+                <ul class="list-disc list-inside ml-4 text-base sm:text-lg leading-relaxed">
+                    <li>The core focus of the project was to develop an Arduino-based Anti-Burglar Security System, designed as a smart intrusion detection and access control mechanism.</li>
+                    <li>The system utilizes an ultrasonic sensor, keypad, LCD display, and alarm to detect unauthorized entries and allow secure access using a passcode.</li>
+                    <li>The idea is to simulate a basic electronic lock system that alerts and prevents intruders while allowing authorized users to deactivate the alarm through a password interface.</li>
+                </ul>
+                <a href="https://github.com/ferrindsouza/anti-burglar-security-system" class="text-blue-500 hover:underline mt-2 inline-block">Click Here to view on Github</a>
+            </div>
+
+            <h2 class="text-2xl sm:text-3xl font-semibold text-blue-600 mb-4 border-b-2 pb-2 border-blue-200 mt-8">📂 Mini Projects:</h2>
+            <ul class="list-disc list-inside ml-4 text-base sm:text-lg leading-relaxed">
+                <li><p>🤖 <a href="https://github.com/ferrindsouza/Shell-Scripting-for-AWS" class="text-blue-500 hover:underline">AWS Automation with Shell Scripting</a>
+                    <em>Shell scripts to learn how to automate AWS EC2 instance creation, volume attachment, and status monitoring.</em></p>
+                </li>
+                <li><p>🐳 <a href="https://github.com/ferrindsouza/nginx-web-app" class="text-blue-500 hover:underline">A simple exercise to demonstrate the application of containerization on AWS</a>
+                    <em>A simple exercise to demonstrate deploying an NGINX containerized app on an AWS EC2 instance.</em></p>
+                </li>
+                <li><p>💻 <a href="https://github.com/ferrindsouza/PartyRock_TaskScheduler" class="text-blue-500 hover:underline">AWS PartyRock Task Scheduler</a>
+                    <em>An AI-generated app that helps users manage and prioritize tasks using a productivity matrix.</em>
+                </p></li>
+            </ul>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="mb-12 pt-4"> <!-- Added id and padding-top -->
+            <h2 class="text-2xl sm:text-3xl font-semibold text-blue-600 mb-4 border-b-2 pb-2 border-blue-200">Education</h2>
+            <div class="mb-6">
+                <h3 class="text-xl sm:text-2xl font-semibold text-gray-700">MSc Cybersecurity, Robert Gordon University</h3>
+                <p class="text-gray-600 italic mb-2">Scotland, UK</p>
+                <ul class="list-disc list-inside ml-4 text-base sm:text-lg leading-relaxed">
+                    <li>Key Skills: Specialized in network security, incident response, and cloud risk assessment. Conducted security analysis using web proxies, Security Onion, and Splunk.</li>
+                </ul>
+            </div>
+            <div class="mb-6">
+                <h3 class="text-xl sm:text-2xl font-semibold text-gray-700">B.E Computer Science and Engineering, Visveswaraya Technological University</h3>
+                <p class="text-gray-600 italic mb-2">Karnataka, India</p>
+                <ul class="list-disc list-inside ml-4 text-base sm:text-lg leading-relaxed">
+                    <li>Key Skills: Developed database-driven applications using SQL and full-stack web development with HTML, Bootstrap, and JavaScript.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Certifications/Awards Section -->
+        <section id="certifications" class="mb-12 pt-4"> <!-- Added id and padding-top -->
+            <h2 class="text-2xl sm:text-3xl font-semibold text-blue-600 mb-4 border-b-2 pb-2 border-blue-200">Certifications & Awards</h2>
+            <ul class="list-disc list-inside ml-4 text-base sm:text-lg leading-relaxed">
+                <li>AWS Certified Cloud Practitioner - AWS (2025)</li>
+                <li>Google Cybersecurity Professional Certificate - Coursera (2025)</li>
+                <li>Google AI Essentials - Coursera (2024)</li>
+                <li>AWS Immersion Day Amazon Q Developer - AWS (2025)</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="mb-8 pt-4"> <!-- Added id and padding-top -->
+            <h2 class="text-2xl sm:text-3xl font-semibold text-blue-600 mb-4 border-b-2 pb-2 border-blue-200">Contact</h2>
+            <p class="text-base sm:text-lg leading-relaxed mb-4">
+                I'm actively seeking opportunities as a Junior Cloud Engineer or DevOps Engineer. Feel free to reach out to me via email or connect with me on LinkedIn.
+            </p>
+            <div class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-base sm:text-lg">
+                <a href="mailto:ferrindsouza@gmail.com" class="flex items-center text-blue-600 hover:underline hover:text-blue-800 transition-colors duration-200">
+                    <i data-lucide="mail" class="w-5 h-5 mr-2"></i> Email Me
+                </a>
+                <a href="https://www.linkedin.com/in/ferrindsouza/" target="_blank" rel="noopener noreferrer" class="flex items-center text-blue-600 hover:underline hover:text-blue-800 transition-colors duration-200">
+                    <i data-lucide="linkedin" class="w-5 h-5 mr-2"></i> Connect on LinkedIn
+                </a>
+                <a href="https://github.com/ferrindsouza" target="_blank" rel="noopener noreferrer" class="flex items-center text-blue-600 hover:underline hover:text-blue-800 transition-colors duration-200">
+                    <i data-lucide="github" class="w-5 h-5 mr-2"></i> View My GitHub
+                </a>
+                <a href="https://medium.com/@ferrindsouza" target="_blank" rel="noopener noreferrer" class="flex items-center text-blue-600 hover:underline hover:text-blue-800 transition-colors duration-200">
+                    <i data-lucide="book-open" class="w-5 h-5 mr-2"></i> Read My Articles
+                </a>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer Section -->
+    <footer class="text-center p-4 sm:p-6 bg-gray-200 text-gray-600 text-sm">
+        <p>&copy; 2025 Ferrin Dsouza. All rights reserved.</p>
+    </footer>
+
+    <!-- Script to initialize Lucide icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
