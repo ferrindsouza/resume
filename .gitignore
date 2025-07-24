@@ -7,3 +7,10 @@ Website bkgd.png
 # System files
 .DS_Store
 Thumbs.db
+
+# terraform files
+.terraform
+.terraform.lock.hcl
+terraform.tfstate.*
+terraform.tfstate
+terraform.tfvars
